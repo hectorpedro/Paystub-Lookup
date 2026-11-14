@@ -1,0 +1,15 @@
+# Never commit real payroll documents
+*.pdf
+# ...except the fake sample data
+!sample_data/**/*.pdf
+# but not output files generated while testing the samples
+sample_data/**/[0-9]*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
