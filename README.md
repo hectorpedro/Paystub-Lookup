@@ -2,7 +2,7 @@
 
 Pull one employee's pay stubs out of a stack of payroll PDFs and combine them into a single file.
 
-Payroll exports (e.g. from Paylocity) usually come as one big PDF per check date, with every employee's stub inside. When an employee asks for their archived paystubs over a date range, you'd normally have to dig through each file by hand. This script does it for you: pick a folder, type an Employee ID, and it builds `<EMPLOYEE_ID>.pdf` with only that person's pages.
+Payroll exports usually come as one big PDF per check date, with every employee's stub inside. When an employee asks for their archived paystubs over a date range, you'd normally have to dig through each file by hand. This script does it for you: pick a folder, type an Employee ID, and it builds `<EMPLOYEE_ID>.pdf` with only that person's pages.
 
 ## How it works
 
